@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="mini_store_flutter">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>mini_store_flutter</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+
+  <script>
+    // إعدادات الفايربيس الخاصة بمشروعك
+    const firebaseConfig = {
+      apiKey: "AIzaSyCyB208pNr7gcak2VRpuQjxAUeAGWai2nU",
+      authDomain: "mini-store-web-18e52.firebaseapp.com",
+      projectId: "mini-store-web-18e52",
+      storageBucket: "mini-store-web-18e52.firebasestorage.app",
+      messagingSenderId: "200360245569",
+      appId: "1:200360245569:web:4daeda2b7e608410ae49c0",
+      measurementId: "G-0KQ12027EX"
+    };
+
+    // تهيئة الفايربيس للويب بسلام
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+
+</html>
